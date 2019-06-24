@@ -18,8 +18,13 @@
     background-color: #ffffff;
 }
 .bg-color-work-history{
-    background-color: #9b59b6;
     
+    /
+    background-color: #9b59b6;
+}
+
+.bg-color-contact{
+    background-color: #ffffff;
 }
 
 .ui-menu-color-home{
@@ -72,25 +77,24 @@ h1, h2, h3, h4 {
     
 }
 /*---------------------------------------Heading*/
-header{
+header {
     margin: 0;
 }
 
 .heading{
     margin-left: 50px;
 }
+
 .logo{
     background:url("../images/resume-webdesign.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 10px;
     min-height: 360px;
-    /*min-width: 350px;*/
+    min-width: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-    
 }
 .name{
     font-family: "Exo", sans-serif;
@@ -320,6 +324,27 @@ footer .cv-pdf i:hover {
 .history-items{
     margin-bottom:  30px;
 }
+
+/*----------------------------------Contact*/
+.contact-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
+}
 /*-------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
@@ -327,5 +352,12 @@ footer .cv-pdf i:hover {
     padding: 0 30px 30px;
     float: none;
     display: table-cell;
+              
 }
+.center-form{
+    padding-top: 10px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
 }
+  }
